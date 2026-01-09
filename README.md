@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# 🍽️ RN-Food
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+React Native로 개발한 맛집 추천 애플리케이션입니다.
 
-## Get started
+## 📱 프로젝트 소개
 
-1. Install dependencies
+사용자의 위치와 취향을 기반으로 주변 맛집을 추천하고 리뷰를 공유할 수 있는 모바일 앱입니다.
 
-   ```bash
-   npm install
-   ```
+## 🛠️ 기술 스택
 
-2. Start the app
+- **React Native** - 크로스 플랫폼 모바일 앱 개발
+- **Expo** - React Native 개발 환경
+- **NativeWind** - Tailwind CSS 기반 스타일링
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 시작하기
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 설치
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 실행
 
-## Learn more
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+실행 후 다음 옵션으로 앱을 열 수 있습니다:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- `i` - iOS 시뮬레이터
+- `a` - Android 에뮬레이터
+- QR 코드 스캔 - Expo Go 앱
 
-## Join the community
+## 📂 프로젝트 구조
 
-Join our community of developers creating universal apps.
+```
+RN-Food/
+├── app/              # 메인 앱 코드
+├── assets/           # 이미지, 폰트 등 리소스
+├── components/       # 재사용 가능한 컴포넌트
+└── ...
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🎯 주요 기능
+
+- [ ] 주변 맛집 검색
+- [ ] 맛집 상세 정보 조회
+- [ ] 사용자 리뷰 및 평점
+- [ ] 즐겨찾기 기능
+- [ ] 카테고리별 필터링
+
+## 👩‍💻 개발자
+
+**지혜** - Backend Developer
